@@ -1,0 +1,124 @@
+div {
+	position:absolute;
+}
+body {
+	background: #A07349;
+	margin: 0px;
+}
+.car {
+	position:relative;
+	margin-top: 20px;
+}
+
+#sky {
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 420px;
+	width: 100%;
+	background-color: #3366FF;
+}
+
+.circle {
+	height: 80px;
+	width: 80px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.square {
+	height: 100px;
+	background-color: blue;
+	width: 400px;
+	border-radius: 20px;
+    margin-top: 250px;
+    margin-left: 210px;
+}
+.left-tire {
+	margin-top: 318px;
+	margin-left: 250px;
+}
+.right-tire {
+	margin-top: 318px;
+	margin-left: 500px;
+}
+.top {
+	background-color: blue;
+	margin-top: 181px;
+    margin-left: 310px;
+    width: 221px;
+    height: 156;
+}
+.front-light {
+	margin-top: 249px;
+	margin-left: 209px;
+	width: 40px;
+	height: 30px;
+	background-color: yellow;
+	border-radius: 10px 0px;
+
+}
+#road {
+	background-color: #1C1D1C;
+	height: 80px;
+	width: 100%;
+	margin-top: 345px;
+}
+.window {
+    width: 106px;
+    height: 53px; 
+    background-color: #DBDBFF;
+    border-top-left-radius: 392px;  
+    border-top-right-radius: 250px; 
+    border-bottom: 0;
+    margin-top: 197;
+    margin-left: 311;
+}
+.back-light {
+	margin-top: 250px;
+	margin-left: 570px;
+	width: 40px;
+	height: 30px;
+	background-color: red;
+	border-radius: 0px 10px;
+}
+.button-blue {
+	margin-top: 2px;
+	margin-left: 2px;
+	height: 25px;
+	width: 25px;
+	position:absolute;
+}
+.button-red {
+	margin-top: 35px;
+	margin-left: 2px;
+	height : 25px;
+	width: 25px;
+	background-color: #990000;
+}
+
+.button-white {
+	margin-top: 68px;
+	margin-left: 2px;
+	height : 25px;
+	width: 25px;
+	background-color: white;
+}
+
+.right-rim {
+	margin-top: 335px;
+	margin-left: 520px;
+	height: 45px;
+	width: 40px;
+	background-color: #d2d2d1;
+	border-radius: 50%;
+}
+
+.left-rim {
+	margin-top: 335px;
+	margin-left: 270px;
+	height: 45px;
+	width: 40px;
+	background-color: #d2d2d1;
+	border-radius: 50%;
+}
+

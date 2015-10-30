@@ -1,0 +1,61 @@
+
+body{
+	background-color: #91219E;
+}
+
+.Bullet {
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: red;
+}
+#tank {
+  	top: 0px;
+ 	left: 0px;
+	width: 37px;
+	height: 37px;
+	background: url(../images/tank.png) no-repeat;
+	position: relative;
+}
+#tank2 {
+  	top: 0px;
+ 	left: 0px;
+	width: 37px;
+	height: 37px;
+	background: url(../images/tank.png) no-repeat;
+	position: relative;
+}
+#tank.up {
+	background-position: -38px -38px;
+}
+#tank.left {
+	background-position: -38px 0px;
+}
+#tank.right {
+	background-position: 0px 0px;
+}
+#tank.down {
+	background-position: 0px -38px;
+}
+#tank2.up {
+	background-position: -38px -38px;
+}
+#tank2.left {
+	background-position: -38px 0px;
+}
+#tank2.right {
+	background-position: 0px 0px;
+}
+#tank2.down {
+	background-position: 0px -38px;
+}
+
+#main {
+	position: relative;
+	width: 700px;
+	height: 500px;
+	background-color: #fafafa;
+	border: 2px solid black;
+	margin: 0 auto;
+}

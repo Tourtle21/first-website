@@ -1,0 +1,81 @@
+body{
+	margin: 0px;
+	background-color: #6B246B;
+}
+header {
+	background: #FF9900;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+h1 {
+	margin: 0px;
+}
+a {
+	color: #33CC33;
+	text-decoration: none;
+}
+section {
+	text-align: center;
+	display: block;
+}
+.box p {
+	position: relative;
+	z-index: 100;
+	background-color: rgba(0,0,0,0.4);
+	color: #eee;
+	padding: 10px 0;
+	margin: 0;
+
+}
+.box {
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 20px 10px;
+	overflow: hidden;
+	position: relative;
+	border: 10px solid #009900;
+}
+#kids img {
+	position: relative;
+}
+.megan img {
+	left: -96px;
+	top: -38px;
+}
+.kody img{
+	top: -58px;
+	left: -136px;
+	
+}
+.kody {
+	border: 10px solid #FF6600;
+}
+.oliver img{
+	height: 300px;
+	width: auto;
+	top: -45px;
+	left: -20px;
+	
+}
+.kyanne img {
+	top: -52px;
+	left: -92px;
+}
+.kaden img{
+	top: -120px;
+	left: -130px;
+}
+.alex img{
+	top:-190px;
+	left: -120px;
+}
+.alex {
+	border: 10px solid #33FF33;
+}
+.olicer {
+	border: 10px solid blue;
+}

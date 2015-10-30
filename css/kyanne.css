@@ -1,0 +1,20 @@
+#mouse {
+	background: url(../images/mouse.png) no-repeat;
+	height: 14px;
+	width: 15px;
+	position: relative;
+	background-position: 6px -12px;
+}
+#mouse.up {
+	background-position: -17px 1px;
+	
+}
+#mouse.left {
+	background-position: -1px 2px;
+}
+#mouse.right {
+	background-position: -9px -14px;
+}
+#mouse.down {
+	background-position: 6px -12px;
+}

@@ -1,0 +1,63 @@
+header {
+	background-color: #000033;
+}
+header h1 {
+	color: #FF0000;
+}
+body {
+	background-color: #E65C00;
+}
+#cheetah {
+	position: relative;
+}
+.head {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: orange;
+	top: 100px;
+	left: 500px;
+	position: relative;
+}
+.eye1 {
+	height: 10px;
+	width: 10px;
+	background-color: black;
+	border-radius: 50%;
+	left: 575px;
+	top: 40px;
+}
+.body {
+	height: 100px;
+	width:200px;
+	background-color: orange;
+	border-radius: 50%;
+	left: 340px;
+	top: -8px;
+	position: relative;
+}
+
+.top {
+	height: 50px;
+	width: 25px;
+	background-color: orange;
+	top: -30px;
+	left: 450px;
+	position: relative;
+	border-radius: 50%;
+
+}
+.bottom {
+	height: 50px;
+	width: 25px;
+	border-radius: 50%;
+	background-color: orange;
+	top: -50px;
+	left: 445px;
+	position: relative;
+	transform: rotate(20deg);
+}
+.foot {
+	height: 10px;
+	width: 30px;
+}
