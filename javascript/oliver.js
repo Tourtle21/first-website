@@ -26,33 +26,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-function bulletLeft() {
-  
 
-}
 function doKeyDown(){
-  if (keys[69]) {
-    $("#tank2").append('<div class = "Bullet"></div>');
-    var bullet = $(".Bullet").last();
-    bullet.css('top', bullet.position().top +10.5)
-    bullet.css('left', bullet.position().left+13.5)
-  }
   if (keys[32]) {
-    $("#tank").append('<div class = "Bullet"></div>');
-    var bullet = $(".Bullet").last();
-    bullet.css('top', bullet.position().top +10.5)
-    bullet.css('left', bullet.position().left+13.5)
+      $("#tank").append('<div class = "Bullet"></div>');
+      var bullet = $(".Bullet").last();
+      bullet.css('top',bullet.position().top + 18.5);
+      bullet.css('left',bullet.position().left + 18.5)
   }
   if (keys[38]) { //Up Arrow
     if (player.position().top - dy > -2){
       player.css('top', player.position().top - 5);
       player.removeClass ("left down right up");
       player.addClass ("up");
-      bulletLeft()
     }
   }
   if (keys[40]){ //Down Arrow 
-    if (player.position().top + dx < HEIGHT) {
+    if (player.position().top + dx < HEIGHT -33) {
       player.css('top', player.position().top + 5);
       player.removeClass ("left down right up");
       player.addClass ("down");
@@ -66,7 +56,7 @@ function doKeyDown(){
     }
   }
   if (keys[39]) { //Right Arrow
-    if (player.position().left + dy < WIDTH){
+    if (player.position().left + dy < WIDTH - 37){
       player.css('left', player.position().left + 5);
       player.removeClass ("left down right up");
       player.addClass ("right")
@@ -82,7 +72,7 @@ function doKeyDown(){
     }
   }
   if (keys[83]){ //Down Arrow 
-    if (player2.position().top + dx < HEIGHT) {
+    if (player2.position().top + dx < HEIGHT-37) {
       player2.css('top', player2.position().top - 32);
       player2.removeClass ("left down right up")
       player2.addClass ("down");
@@ -96,7 +86,7 @@ function doKeyDown(){
     }
   }
   if (keys[68]) { //Right Arrow
-    if (player2.position().left + dy < WIDTH){
+    if (player2.position().left + dy < WIDTH-37){
       player2.css('left', player2.position().left + 5);
       player2.removeClass ("left down right up")
       player2.addClass ("right")
@@ -126,7 +116,7 @@ window.addEventListener('keypress',function(i) {
 function init() {
 
 
-    bulletLeft();
+
 		requestAnimationFrame(init);
 		
 	}
